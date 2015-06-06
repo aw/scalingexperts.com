@@ -1,0 +1,310 @@
+/*
+Theme Name: SidebarsSuck
+Theme URI: http://www.ich-bin-ein-geek-holt-mich-hier-raus.de/?p=774
+Description: Schlicht, einfach, schwarz auf wei&szlig;. F&uuml;r Blogger, die lieber &uuml;ber die wichtigen Dinge des Lebens bloggen, statt &uuml;ber das t&auml;gliche Frühstück. F&uuml;r Blogger mit Leidenschaft. F&uuml;r Blogger mit Message. F&uuml;r Blogger mit Herz. Vielleicht auch f&uuml;r dich?
+Version: 1.2
+Author: Lifecheater
+Author URI: http://lifecheater.ich-geek.de/
+Tags: one-column, black, white, fixed-width
+*/
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.ec_ejc_thkbx {
+padding-left: 220px;
+float: right;
+}
+
+.aligncenter, div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+.wp-image-106 {
+    border: 1px solid black;
+}
+.alignright {
+	float: right;
+	margin-left: 10px;
+}
+
+body {
+	font-family: Monospace;
+	font-size: 14px;
+	background: #FFF;
+}
+
+#wrap {
+	width: 800px;
+	margin: 0px auto;
+}
+
+#header {
+  height: 55px;
+	background: #FFF;
+	padding: 5px 15px;
+	position: fixed;
+	display: block;
+	width: 760px;
+	clear: right;
+	top: 0px;
+	border: 5px solid #CCC;
+}
+
+#header a {
+	color: #000;
+	text-decoration: none;
+}
+
+#header h1 {
+	font-size: 39px;
+	line-height: 39px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+#header small {
+	font-size: 14px;
+	line-height: 19px;
+	font-style: italic;
+}
+
+#s {
+	float: right;
+	width: 150px;
+	padding: 2px;
+	background: transparent;
+	border: 0px none;
+	border-bottom: 1px solid #444;
+	color: #444;
+	margin-top: 5px;
+	font-size: 15px;
+	font-family: Georgia;
+	font-style: italic;
+}
+
+#s:focus {
+	border-bottom: 1px solid #777;
+	color: #777;
+}
+
+#navigation {
+	height: 40px;
+	list-style-type: none;
+	background: #000;
+	padding: 0 20px 5px 20px;
+	border: 5px solid #CCC;
+	margin: 75px 0 0 0;
+	position: fixed;
+	display: block;
+	width: 750px;
+	border-top: 0;
+}
+
+#navigation li {
+	float: left;
+	height: 16px;
+	margin: 4px 15px 0px;
+	text-transform: uppercase;
+}
+
+#navigation li a {
+	text-decoration: none;
+	font-size: 26px;
+	color: #C7D5D9;
+}
+
+#navigation .current_page_item a {
+	color: #4A565F;
+}
+
+#navigation li a:hover {
+	color: #EBF0F2;
+	border-bottom: 1px solid #FFF;
+}
+
+#navigation .current_page_item a:hover {
+	color: #EBF0F2;
+}
+
+#content {
+	width: auto;
+	padding: 30px;
+	color: #212121;
+	background: #FFF;
+	border: 5px solid #CCC;
+	border-top: 0px none;
+	font-family: "Trebuchet Ms", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding-top: 140px;
+}
+
+#content .post {
+	margin-bottom: 30px;
+}
+
+#content .post .date {
+	float: left;
+	margin: -3px 10px 0px -30px;
+	padding: 5px 5px 5px 30px;
+	color: #212121;
+	background: #EEE;
+}
+
+#content .post .date p span, #content #commentlist li .authorinfo small{
+	font-size: 12px;
+}
+
+#content .post .date p strong {
+	font-size: 30px;
+	float: left;
+	margin-top: -2px;
+	margin-right: 5px;
+}
+
+#content h2 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #212121;
+	margin-bottom: 10px;
+}
+
+#content .post h2 small a{
+	font-size: 14px;
+	color: #008AAB;
+	margin-left: 5px;
+	text-decoration: none;
+}
+
+#content .post .tags {
+	font-size: 11px;
+	margin-bottom: 10px;
+}
+
+#content .post .contentinner p {
+	margin: 10px 0px;
+}
+
+#content .post .contentinner .storycontent {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	text-transform: none;
+}
+
+#content #commentlist {
+	margin-left: 20px;
+	margin-top: 10px;
+	list-style-type: none;
+}
+
+#content #commentlist li {
+	margin: 10px 0px;
+}
+
+#content #commentlist li .authorinfo {
+	float: left;
+	width: 250px;
+	margin: 0px 10px 0px 5px;
+}
+
+#content #commentlist li .authorinfo h3 a, #content #commentlist li .authorinfo h3 {
+	color: #212121;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#content #commentlist li .authorinfo .avatar {
+	float: left;
+	margin-right: 10px;
+}
+
+#content #commentlist li .comment-content {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 14px;
+	display: block;
+	width: 425px;
+	margin-left: 270px;
+	padding-left: 5px;
+	border-left: 3px solid #008AAB;
+	font-style: normal;
+	text-transform: none;
+}
+
+#content #commentform #comment {
+	font-family: "Trebuchet Ms", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	text-transform: none;
+	padding: 3px;
+}
+
+#content .trackbackrss {
+	margin-top: 5px;
+}
+
+/* Elements */
+
+#footer a {
+	text-decoration: none;
+	color: #7B8B95;
+}
+#content a {
+	text-decoration: none;
+	color: red;
+}
+#content a:hover, #footer a:hover {
+	border-bottom: 1px solid #FFF;
+	text-decoration: underline;
+	color: #7B8B95;
+}
+
+#footer {
+	margin: 0px auto 20px;
+	color: #FFF;
+	background: #000;
+	padding: 5px 10px 10px;
+	width: 770px;
+	text-align: middle;
+	font-size: 12px;
+	font-family: Monospace;
+	border: 5px solid #CCC;
+	border-top: 0;
+}
+
+a img {
+	border: 0px none;
+}
+
+blockquote {
+	border-left: 3px solid #4A565F;
+	margin-left: 40px;
+	padding-left: 5px;
+	color: #5F5F5F;
+	margin-bottom: 20px;
+}
+
+ul, ol {
+	margin: 20px 40px;
+	list-style-type: none;
+}
+#content li {
+    background-image: url('images/check.gif');
+    background-repeat: no-repeat;
+    background-position: 0 0 0 0;
+    padding: 0 0 5px 25px;
+}
+#content li.x {
+    background-image: url('images/x.gif');
+    background-repeat: no-repeat;
+}
+h1 {
+    margin-bottom: 10px;
+}
